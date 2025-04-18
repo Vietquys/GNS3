@@ -1,0 +1,485 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "lab05",
+    "project_id": "44ac0702-3312-4d1f-b7a9-c14585a8277d",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": true,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "5dee5dde-c54c-4178-8442-8243d72e016d",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"68\" height=\"29\"><text font-family=\"MesloLGS NF\" font-size=\"12.0\" fill=\"#000000\" fill-opacity=\"1.0\">dot1q </text></svg>",
+                "x": -118,
+                "y": -227,
+                "z": 2
+            },
+            {
+                "drawing_id": "ec05eb80-182d-4061-bb2d-d242254c861b",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"168\" height=\"50\"><text font-family=\"MesloLGS NF\" font-size=\"12.0\" fill=\"#000000\" fill-opacity=\"1.0\">VLAN 10\n192.168.10.0/24 </text></svg>",
+                "x": -508,
+                "y": -147,
+                "z": 2
+            },
+            {
+                "drawing_id": "98bd27ed-b71e-4d3a-b152-462bb408d3b2",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"168\" height=\"50\"><text font-family=\"MesloLGS NF\" font-size=\"12.0\" fill=\"#000000\" fill-opacity=\"1.0\">VLAN 20\n192.168.20.0/24 </text></svg>",
+                "x": 164,
+                "y": -154,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "28a4850b-342d-4f8e-afbf-e35688e3ba00",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": 65,
+                            "y": 28
+                        },
+                        "node_id": "8c1a3411-2210-4854-ad7e-312ffa59323a",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": -64,
+                            "y": 23
+                        },
+                        "node_id": "53059b44-c5da-4d78-a864-6eaaeb25eb55",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "6ce44580-fb73-4331-aba4-ed9565e63d18",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/1",
+                            "x": 61,
+                            "y": 40
+                        },
+                        "node_id": "53059b44-c5da-4d78-a864-6eaaeb25eb55",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                            "text": "NIC1",
+                            "x": -1,
+                            "y": 18
+                        },
+                        "node_id": "98df2f77-ffe5-4da7-800c-de2dc5e28c7f",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "e06f16fe-0857-43fc-8324-62b4c7e459b7",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 58,
+                            "y": 0
+                        },
+                        "node_id": "d2dbba3b-752f-4c3a-8a02-678185722aa5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/1",
+                            "x": -5,
+                            "y": 48
+                        },
+                        "node_id": "8c1a3411-2210-4854-ad7e-312ffa59323a",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "9253b64b-3a55-4649-a29e-9e7181221541",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 6,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth6",
+                            "x": 63,
+                            "y": 41
+                        },
+                        "node_id": "d2dbba3b-752f-4c3a-8a02-678185722aa5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                            "text": "VMware Network Adapter VMnet8",
+                            "x": -1,
+                            "y": -3
+                        },
+                        "node_id": "970e670e-9460-41a1-8cfa-9b31402dc124",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "vm",
+                "console": 5902,
+                "console_auto_start": false,
+                "console_type": "vnc",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 70,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Windows-Server",
+                    "x": -32,
+                    "y": 68
+                },
+                "locked": false,
+                "name": "Windows-Server",
+                "node_id": "98df2f77-ffe5-4da7-800c-de2dc5e28c7f",
+                "node_type": "qemu",
+                "port_name_format": "NIC{port1}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "e1000",
+                    "adapters": 1,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "c",
+                    "cdrom_image": "",
+                    "cdrom_image_md5sum": null,
+                    "cpu_throttling": 0,
+                    "cpus": 1,
+                    "create_config_disk": false,
+                    "hda_disk_image": "WinSerVer2012/hda_disk.qcow2",
+                    "hda_disk_image_md5sum": "98fcc2c3ce27022509515579046b3c6a",
+                    "hda_disk_interface": "sata",
+                    "hdb_disk_image": "",
+                    "hdb_disk_image_md5sum": null,
+                    "hdb_disk_interface": "none",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "none",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "none",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:df:2f:77:00:00",
+                    "on_close": "power_off",
+                    "options": "-usbdevice tablet",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/usr/bin/qemu-system-x86_64",
+                    "ram": 2048,
+                    "replicate_network_connection_state": true,
+                    "tpm": false,
+                    "uefi": false,
+                    "usage": ""
+                },
+                "symbol": "microsoft.svg",
+                "template_id": "0125e51c-ea27-4953-b7e7-e48bcad64ae9",
+                "width": 70,
+                "x": 199,
+                "y": -67,
+                "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5001,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                    "text": "IOU1",
+                    "x": 1,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "IOU1",
+                "node_id": "8c1a3411-2210-4854-ad7e-312ffa59323a",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "application_id": 1,
+                    "ethernet_adapters": 4,
+                    "l1_keepalives": false,
+                    "md5sum": "a59489eccf0e4b7c6b002c7562761e98",
+                    "nvram": 16,
+                    "path": "i86bi-linux-l2-upk9-12.2.bin",
+                    "ram": 256,
+                    "serial_adapters": 0,
+                    "usage": "",
+                    "use_default_iou_values": true
+                },
+                "symbol": ":/symbols/multilayer_switch.svg",
+                "template_id": "99370ba0-e77b-41c1-a91e-0523393fee28",
+                "width": 51,
+                "x": -215,
+                "y": -165,
+                "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5003,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                    "text": "IOU2",
+                    "x": 1,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "IOU2",
+                "node_id": "53059b44-c5da-4d78-a864-6eaaeb25eb55",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "application_id": 2,
+                    "ethernet_adapters": 4,
+                    "l1_keepalives": false,
+                    "md5sum": "a59489eccf0e4b7c6b002c7562761e98",
+                    "nvram": 16,
+                    "path": "i86bi-linux-l2-upk9-12.2.bin",
+                    "ram": 256,
+                    "serial_adapters": 0,
+                    "usage": "",
+                    "use_default_iou_values": true
+                },
+                "symbol": ":/symbols/multilayer_switch.svg",
+                "template_id": "99370ba0-e77b-41c1-a91e-0523393fee28",
+                "width": 51,
+                "x": 46,
+                "y": -162,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cloud1",
+                    "x": 45,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cloud1",
+                "node_id": "970e670e-9460-41a1-8cfa-9b31402dc124",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Ethernet",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Bluetooth Network Connection",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "Ethernet",
+                            "name": "Ethernet",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "interface": "VMware Network Adapter VMnet8",
+                            "name": "VMware Network Adapter VMnet8",
+                            "port_number": 1,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -188,
+                "y": 88,
+                "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5900,
+                "console_auto_start": false,
+                "console_type": "vnc",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 49,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MesloLGS NF;font-size: 12.0;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Kali-1",
+                    "x": -6,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Kali-1",
+                "node_id": "d2dbba3b-752f-4c3a-8a02-678185722aa5",
+                "node_type": "qemu",
+                "port_name_format": "eth{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "e1000",
+                    "adapters": 8,
+                    "bios_image": "",
+                    "bios_image_md5sum": null,
+                    "boot_priority": "d",
+                    "cdrom_image": "kali-linux-2024.3-live-amd64.iso",
+                    "cdrom_image_md5sum": "407feb1e3aa45cb5246842e6fcdc2a7e",
+                    "cpu_throttling": 0,
+                    "cpus": 2,
+                    "create_config_disk": false,
+                    "hda_disk_image": "kali-linux-persistence-1gb.qcow2",
+                    "hda_disk_image_md5sum": "14e9c92f3ba5a0bd1128c1ea26a129ea",
+                    "hda_disk_interface": "ide",
+                    "hdb_disk_image": "empty100G.qcow2",
+                    "hdb_disk_image_md5sum": "f2b787633398c9b4e880b60fbc61b58d",
+                    "hdb_disk_interface": "sata",
+                    "hdc_disk_image": "",
+                    "hdc_disk_image_md5sum": null,
+                    "hdc_disk_interface": "none",
+                    "hdd_disk_image": "",
+                    "hdd_disk_image_md5sum": null,
+                    "hdd_disk_interface": "none",
+                    "initrd": "",
+                    "initrd_md5sum": null,
+                    "kernel_command_line": "",
+                    "kernel_image": "",
+                    "kernel_image_md5sum": null,
+                    "legacy_networking": false,
+                    "linked_clone": true,
+                    "mac_address": "0c:db:ba:3b:00:00",
+                    "on_close": "power_off",
+                    "options": "",
+                    "platform": "x86_64",
+                    "process_priority": "normal",
+                    "qemu_path": "/bin/qemu-system-x86_64",
+                    "ram": 4096,
+                    "replicate_network_connection_state": true,
+                    "tpm": false,
+                    "uefi": false,
+                    "usage": "Default password is toor\nEnable persistence by selecting boot option 'Live USB Persistence'"
+                },
+                "symbol": "icons-master/Kali.png",
+                "template_id": "c5049198-1dfc-4ba7-8d14-5484f3fbf5d4",
+                "width": 55,
+                "x": -395,
+                "y": -26,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.53",
+    "zoom": 118
+}
